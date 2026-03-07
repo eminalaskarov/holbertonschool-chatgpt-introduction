@@ -5,7 +5,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1  # BU SƏTİR ƏLAVƏ EDİLDİ: n-i hər addımda bir vahid azaldırıq
+        n -= 1  # n dəyişənini 1 vahid azaldırıq ki, dövr sonsuz olmasın
     return result
 
 if __name__ == "__main__":
